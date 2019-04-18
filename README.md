@@ -27,3 +27,12 @@ Howw to get appPackage and appActivity from connected devices
 
 2.use below command [link](http://www.automationtestinghub.com/apppackage-and-appactivity-name/)
 adb shell pm list packages
+
+## Allure report
+
+To Generate allure report open command prompt in project location and use below command
+
+`
+allure generate allure-result --clean
+`
+HTML Report will be generated in allure-Report location 
