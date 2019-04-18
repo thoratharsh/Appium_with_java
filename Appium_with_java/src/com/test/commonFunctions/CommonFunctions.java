@@ -61,4 +61,9 @@ public class CommonFunctions {
 		driver.findElement(By.xpath(xpath)).sendKeys(text);
 	}
 
+	@Step("Get Text of {1}")
+	public String get_text(AppiumDriver driver, String xpath) {
+		return driver.findElement(By.xpath(xpath)).getText();
+	}
+
 }
